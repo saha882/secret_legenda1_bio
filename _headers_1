@@ -1,0 +1,13 @@
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'sha256-1a9iZA/fN0ntTcW6sVOvKP9MIzXTI9zucPWWpZQhnY8=' 'sha256-6CVs+8A/7+qHn3gd73eVqR4aiO7G58IuxGv295eY1/Y=' 'sha256-MXzY5qfgAJJ8ZhC14OX0O+DI8Kwou8o0SCoZ9OkTrCo='; style-src 'sha256-+l8CW4zGkw3jZmP24xhrAYuqrYTfBscD4eDat3P+/9Q=' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://static-cdn.jtvnw.net https://cdn4.telesco.pe; connect-src 'none'; frame-src 'none'; object-src 'none'; media-src 'none'; manifest-src 'none'; worker-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests; frame-ancestors 'none'
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), serial=(), bluetooth=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  X-Permitted-Cross-Domain-Policies: none
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
